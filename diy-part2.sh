@@ -18,3 +18,4 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+echo "CONFIG_PACKAGE_luci-app-ssr-plus=y" >> ./.config  # 将luci-app-ssr-plus包添加到配置中
