@@ -1,4 +1,4 @@
-name: nowifi
+name: 111
 
 on:
   repository_dispatch:
